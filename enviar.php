@@ -1,7 +1,7 @@
 <?php
 
-$nome = $_POST['name'];
-$genero = $_POST['genero'];
+$nome = $_POST['name']
+$genero = $_POST['genero'];:
 $estado = $_POST['estado'];
 $qtdIrmaos = $_POST['irmao'];
 foreach ($qtdIrmaos as $val) {
