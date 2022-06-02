@@ -1,0 +1,29 @@
+#config
+{
+        
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        background-color: rgb(222, 236, 225);
+}
+.logo
+{
+        position: relative;
+        text-align: center;
+        width: 7%;
+        height: 7%;
+}
+#disc
+{
+    position: relative;
+	font-size: 15px;
+	top: 32px;
+    left: 29px;
+}
+#rodape
+{
+    position: relative;
+	width: 420px;
+	left: 29px;
+	top: 27px;
+}

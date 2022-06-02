@@ -1,13 +1,14 @@
 <?php
 
-$nome = $_POST['name']
-$genero = $_POST['genero'];:
+$nome = $_POST['name'];
+$genero = $_POST['email'];
 $estado = $_POST['estado'];
-$qtdIrmaos = $_POST['irmao'];
-foreach ($qtdIrmaos as $val) {
+$qtdIrmaos = $_POST['pwd'];
+foreach ($qtdIrmaos as $val)
+{
     $msg .= $val . ", ";
 }
 
-echo "O nome é $nome, o gênero é $genero, o estado é $estado e são $msg irmãos.";
+echo "O nome é $nome, o email é $email, e a senha é $senha .";
 
 ?>
