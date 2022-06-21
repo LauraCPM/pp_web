@@ -1,10 +1,10 @@
 <?php
 
 $nome = $_POST['name'];
-$genero = $_POST['nasc'];
-$estado = $_POST['email'];
-$qtdIrmaos = $_POST['pass'];
+$nasc = $_POST['nasc'];
+$email = $_POST['email'];
+$senha = $_POST['pass'];
 
-echo "O nome é $nome, o email é $email, e a senha é $senha .";
+echo "O nome é $nome, o email é $email, e a senha é $senha, e a data de nascimento é $nasc .";
 
 ?>

@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="form.css" rel="stylesheet">
 	<title>formulário</title>
+
 </head>
 
 <body id="config">
@@ -25,11 +26,11 @@
 		<br>
 		<input type="email" id="email "name="email">
 		<br>
-        <label for="password"> Senha:</label><br>
+        <label for="senha"> Senha:</label><br>
         <input type="password" id="pass" name="pass">
     
             <br><br>
-		<input type="submit" name="enviar" value="Enviar">
+		<input type="submit" name="enviar" id="enviar" value="Enviar" onclick=" return validacao()">
 	</form>
     <br>
 	<div id="rodape">
@@ -41,6 +42,25 @@
 	<footer>
 		<p id="disc">-laura Cristina-</p>
 	</footer>
+	
+	<script type="text/javascript">
+
+		function validacao() 
+		{
+
+			if(document.getElementById("name").value.length == 0)
+				{
+					alert("Por favor, preencha o campo nome.")
+					return false
+				}
+			else
+				{
+					document.getElementById("enviar").submit()
+					return true
+				}
+		}
+	</script>
+
 </body>
 
 </html>
