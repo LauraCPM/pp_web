@@ -11,26 +11,21 @@
 
 <body id="config">
 	<br>
-	<form action="cadastro.php" method="post">
+	<form action="cadastro.php" method="post" onsubmit="return validacao()">
 
-		<label for="name">Nome completo:</label>
-		<br>
-		<input type="text" name="name" id="name">
-        <br>
+		<label for="name">Nome completo:<br>
+		<input type="text" name="name" id="name" class="obrigatorio"><br>
 		
-		<label for="nascimento">Data de Nascimento:</label>
-		<br>
-		<input type="date" id="date" name="nasc">
-        <br>
-        <label for="email">Email:</label>
-		<br>
-		<input type="email" id="email "name="email">
-		<br>
+		<label for="nascimento">Data de Nascimento:</label><br>
+		<input type="date" id="date" name="nasc" class="obrigatorio"><br>
+
+        <label for="email">Email:</label><br>
+		<input type="email" id="email "name="email" class="obrigatorio"><br>
+
         <label for="senha"> Senha:</label><br>
-        <input type="password" id="pass" name="pass">
-    
-            <br><br>
-		<input type="submit" name="enviar" id="enviar" value="Enviar" onclick=" return validacao()">
+        <input type="password" id="pass" name="pass" class="obrigatorio"><br><br>
+
+		<input type="submit" name="enviar" id="enviar" value="Enviar">
 	</form>
     <br>
 	<div id="rodape">
@@ -47,18 +42,29 @@
 
 		function validacao() 
 		{
-
-			if(document.getElementById("name").value.length == 0)
+			var dados = document.getElementsByClassName('obrigatorio')
+			var tamanho = dados.length
+			var vazio = false;
+			
+			for(var i = 0; i < tamanho; i++)
+			{
+				if((dados [i].value=='')) 
 				{
-					alert("Por favor, preencha o campo nome.")
-					return false
+					vazio= true
+					break
 				}
+			}
+			if(vazio)
+			{
+				alert('Por favor, preencha todos os campos.')
+				return false
+			}
 			else
-				{
-					document.getElementById("enviar").submit()
-					return true
-				}
+			{
+				return true
+			}
 		}
+
 	</script>
 
 </body>
