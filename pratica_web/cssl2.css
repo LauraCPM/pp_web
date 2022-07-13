@@ -6,7 +6,7 @@ body
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  background-image: url("fundo.png") ;
+  background-image: url("./img/fundo.png") ;
   background-repeat: no-repeat;
   background-size: 100%;
  background-attachment: fixed;
@@ -130,3 +130,34 @@ body
 	margin-right: 0px;
 }
 
+#config
+{
+        
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        background-color: rgb(222, 236, 225);
+}
+.logo
+{
+        position: relative;
+        text-align: center;
+        width: 7%;
+        height: 7%;
+}
+#disc
+{
+	color: aliceblue;
+    position: relative;
+	font-size: 15px;
+	top: -8px;
+    left: 60px;
+	
+}
+#rodape
+{
+    position: relative;
+	width: 420px;
+	left: 60px;
+	top: 10px;
+}
