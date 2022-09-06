@@ -8,7 +8,7 @@ body
   margin-top: 0px;
   background-repeat: no-repeat;
   background-color: #643B66;
-  background-image: url(imagens/fundo.png);
+  background-image: url(imagens/fundo_login.png);
   background-size: 100%;
  background-attachment: fixed;
 
@@ -17,13 +17,13 @@ body
 
 .corpo
 {
-	width: 890px;
+	width: 40%;
 	margin-top: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 1010px ;
+	margin-right: 0%;
 	text-indent: 3em;
 	height: 100%;
-	background-color: #f1ebeb;
+	background-color: #ffffff;
 	border-radius: 30px;
 	
 }
@@ -32,9 +32,6 @@ body
 	
 	text-align: justify;
 	color: rgb(156, 151, 151);
-	position:relative;
- 	right: -6%;
- 	top: -1em;
   	width:50px;
   	height:270px;
   	display: inline-block;
@@ -67,7 +64,7 @@ body
 
 #fonte
 {
-	font-family: Brush Script Std, cursive, Helvetica;
+	font-family: Hertical Serif, cursive, Helvetica;
 	font-size: 22px;
 	margin-right: 0px;
 }
@@ -104,7 +101,7 @@ body
 	top: 10px;
 }
 
-.input
-{
-	border-radius: 30px;
-}
+input[type=text] {
+	border: 2px solid black;
+	border-radius: 5px;
+  }
