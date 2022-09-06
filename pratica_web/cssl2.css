@@ -6,58 +6,36 @@ body
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  background-image: url("./img/fundo.png") ;
   background-repeat: no-repeat;
+  background-color: #643B66;
+  background-image: url(imagens/fundo.png);
   background-size: 100%;
  background-attachment: fixed;
 
 }
 
 
-#pesquisa
-{
-	display: block;
-	width: 100%;
-	height: 35px;
-	background-color: #990000;
-	right: 0px;
-	position: fixed;
-}
-
-.barra
-{
-	display: inline-block;
-	float: right;
-	margin-right: 15px;
-	margin-top: 5px;
-}
-#bf
-{
-	display: inline-block;
-	float: left;
-	margin-left: 15px;
-	margin-top: 0px;
-}
 .corpo
 {
 	width: 890px;
+	margin-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	text-indent: 3em;
-	background-color: #990000;
 	height: 100%;
-	background-color: rgb(77, 0, 0);opacity:0.8;
+	background-color: #f1ebeb;
+	border-radius: 30px;
 	
 }
 .text
 {
 	
 	text-align: justify;
-	color: white;
+	color: rgb(156, 151, 151);
 	position:relative;
  	right: -6%;
  	top: -1em;
-  	width:320px;
+  	width:50px;
   	height:270px;
   	display: inline-block;
 }
@@ -86,43 +64,7 @@ body
 	float: right;
 	margin-right: -0,1em;
 }
-.button
-{
-	float: right;
-	margin-top: -8em;
-	margin-right: 23%;
- 	border: none;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-    cursor: pointer;
-	
-}
-.button1 
-{
-    background-color: rgb(77, 0, 0);opacity:0.8 ; 
-    color: white; 
-    border: 2px solid white;
-}
 
-.button1:hover 
-{
-    background-color: #33cc33;
-    color: white;
-    border: 2px solid #33cc33;
-}
-
-#efeito
-{
-	text-decoration: none;
-	text-decoration: underline;
-	text-decoration: none;
-	color: white;
-}
 #fonte
 {
 	font-family: Brush Script Std, cursive, Helvetica;
@@ -160,4 +102,9 @@ body
 	width: 420px;
 	left: 60px;
 	top: 10px;
+}
+
+.input
+{
+	border-radius: 30px;
 }
