@@ -1,19 +1,12 @@
 body
 {
  font-family: "Helvetica", "Lucida Grande", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
   background-repeat: no-repeat;
-  background-color: #643B66;
   background-image: url(imagens/fundo_login.png);
   background-size: 100%;
- background-attachment: fixed;
+  background-attachment: fixed;
 
 }
-
 
 .corpo
 {
@@ -22,86 +15,37 @@ body
 	margin-left: 1010px ;
 	margin-right: 0%;
 	text-indent: 3em;
-	height: 100%;
 	background-color: #ffffff;
 	border-radius: 30px;
 	
 }
-.text
+.bloco
 {
 	
-	text-align: justify;
 	color: rgb(156, 151, 151);
   	width:50px;
   	height:270px;
   	display: inline-block;
 }
-.perfil
-{
-	display: inline-block;
-	float: right;
-	margin-right: 12em;
-	margin-top: 3em;
-	 border-radius: 50%;
-}
-.botao
-{
-	float: right;
-	margin-top: 8em;
-	margin-right: 1em;
-	
-}
-#di
-{
-	float: right;
-	margin-right: -12em;
-}
-#es
-{
-	float: right;
-	margin-right: -0,1em;
-}
+
+
 
 #fonte
 {
 	font-family: Hertical Serif, cursive, Helvetica;
 	font-size: 22px;
-	margin-right: 0px;
+	margin-left: 245px;
 }
 
-#config
-{
-        
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        background-color: rgb(222, 236, 225);
-}
-.logo
-{
-        position: relative;
-        text-align: center;
-        width: 7%;
-        height: 7%;
-}
-#disc
-{
-	color: aliceblue;
-    position: relative;
-	font-size: 15px;
-	top: -8px;
-    left: 60px;
-	
-}
-#rodape
-{
-    position: relative;
-	width: 420px;
-	left: 60px;
-	top: 10px;
-}
 
-input[type=text] {
+
+input[type=text] 
+{
 	border: 2px solid black;
 	border-radius: 5px;
-  }
+}
+input[type=password] 
+{
+	border: 2px solid black;
+	border-radius: 5px;
+}

@@ -2,12 +2,10 @@
 
 include ("./conexao.php");
 
-$nome = $_POST['name'];
-$nascimento = $_POST['nasc'];
-$email = $_POST['email'];
-$senha = $_POST['pass'];
+$usuario = $_POST['usuario'];
+$senha = $_POST['senha'];
 
-$sql = "INSERT INTO usuarios(nome, nascimento, email, senha) VALUES ('$nome', '$nascimento', '$email', '$senha')";
+$sql = "INSERT INTO usuarios(usuario, senha) VALUES ('$usuario', '$senha')";
 
 if(mysqli_query($conexao, $sql))
     echo "Cadastro realizado com sucesso!";
