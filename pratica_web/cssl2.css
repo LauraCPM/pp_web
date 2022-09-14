@@ -10,9 +10,10 @@ body
 
 .corpo
 {
-	width: 40%;
+	width: 25%;
+	margin-bottom: 80px;
 	margin-top: 200px;
-	margin-left: 1010px ;
+	margin-left: 1135px ;
 	margin-right: 0%;
 	text-indent: 3em;
 	background-color: #ffffff;
@@ -23,9 +24,14 @@ body
 {
 	
 	color: rgb(156, 151, 151);
-  	width:50px;
-  	height:270px;
+  	width:20px;
+  	height:570px;
   	display: inline-block;
+}
+
+#usuario
+{
+	margin-left: 30px;
 }
 
 
@@ -34,18 +40,18 @@ body
 {
 	font-family: Hertical Serif, cursive, Helvetica;
 	font-size: 22px;
-	margin-left: 245px;
+	margin-left: 107px;
 }
 
 
 
 input[type=text] 
 {
-	border: 2px solid black;
+	border: 2px solid rgb(112, 112, 112);
 	border-radius: 5px;
 }
 input[type=password] 
 {
-	border: 2px solid black;
+	border: 2px solid rgb(102, 100, 100);
 	border-radius: 5px;
 }
