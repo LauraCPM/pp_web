@@ -9,25 +9,30 @@
 <body >
 	
 
-	
-		<div class="corpo">
-			<br>
+<section>
 		<form action = "cadastro.php" method="post" onsubmit="return validacao()">
 
-      <div class="bloco"><br>
+			<br><br><br><br><span id="fonte_login">Login</span><br><br><br>
+			
+		<div>
+        	<label for="usuario"></label><input placeholder="  Usuario" type="text" name="name" id="name"  class="obrigatorio">
+		</div>
+		<div>
+			<label for="senha"><br></label><input placeholder="  Senha"  type="password" name="pass" id="pass" class="obrigatorio"> 
+		</div>
+		<p id="fonte_senhanova"> Esqueceu sua senha?</p><br>
+		<button class="button1">Entrar</a></button><br><br>
+		<button class="button2">Cadastre-se</a></button>
 
-        	<legend id="fonte">Login</legend><br>
-
-		<div class="usuario_senha">
-        	<label id="usuario" for="usuario">Usuário:</label><input  size=10 maxlength=30 type="text" name="name" id="name"  class="obrigatorio">
-			<label id="senha" for="senha">Senha: <br></label><input  size=8 maxlength=8 type="password" name="pass" id="pass" class="obrigatorio"> 
-		</div>	
 			<!--<input type="submit" name="enviar" id="enviar" value="Enviar"><br> -->
-	  
-	</div>
+
 
       	
 	</form>
+
+</section>
+
+
 </div> <br>
 
 

@@ -8,50 +8,72 @@ body
 
 }
 
-.corpo
+section
 {
-	width: 25%;
-	margin-bottom: 80px;
-	margin-top: 200px;
-	margin-left: 1135px ;
-	margin-right: 0%;
-	text-indent: 3em;
+	display: flex;
+	margin-top: 150px;
+	margin-left: 1135px;
+	height: 60vh;
 	background-color: #ffffff;
+	width: 25%;
 	border-radius: 30px;
-	
 }
-.bloco
+
+form div
 {
 	
-	color: rgb(156, 151, 151);
-  	width:20px;
-  	height:570px;
-  	display: inline-block;
+	margin-left: 142px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
-#usuario
-{
-	margin-left: 30px;
-}
-
-
-
-#fonte
+#fonte_login
 {
 	font-family: Hertical Serif, cursive, Helvetica;
 	font-size: 22px;
-	margin-left: 107px;
+	margin-left: 199px;
+}
+#fonte_senhanova
+{
+	font-family: Hertical Serif, cursive, Helvetica;
+	font-size: 12px;
+	display: flex;
+	margin-left: 199px;
+	
 }
 
+.button1 {
+    background-color: #c5c5c5;
+    font-size: 13px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 12px;
+	width: 35%;
+	margin-left: 170px;
+}
+.button2 {
+    background-color: #c5c5c5;
+    font-size: 13px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 12px;
+	width: 35%;
+	margin-left: 170px;
+}
 
 
 input[type=text] 
 {
 	border: 2px solid rgb(112, 112, 112);
-	border-radius: 5px;
+	border-radius: 20px;
+	width: 170px;
+	height: 40px;
 }
 input[type=password] 
 {
 	border: 2px solid rgb(102, 100, 100);
-	border-radius: 5px;
+	border-radius: 20px;
+	width: 170px;
+	height: 40px;
 }
