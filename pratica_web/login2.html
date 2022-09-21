@@ -3,37 +3,33 @@
 <head>
 	<title>login</title>
 	<meta charset="utf-8">
-	 <link href="imagens/logo.ico" rel="icon"> 
+	<link href="imagens/logo.ico"  rel="icon"> 
 	 <link rel="stylesheet" href="cssl2.css">
 </head>
 <body >
 	
 
 <section>
-		<form action = "cadastro.php" method="post" onsubmit="return validacao()">
 
-			<br><br><br><br><span id="fonte_login">Login</span><br><br><br>
-			
+	<form action = "cadastro.php" method="post" onsubmit="return validacao()">
+
+		<br><br><br><br><span id="fonte_login">Login</span><br><br><br>
+
 		<div>
-        	<label for="usuario"></label><input placeholder="  Usuario" type="text" name="name" id="name"  class="obrigatorio">
+        	<label for="usuario"></label><input placeholder="  Usuário" type="text" name="name" id="name"  class="obrigatorio">
 		</div>
 		<div>
 			<label for="senha"><br></label><input placeholder="  Senha"  type="password" name="pass" id="pass" class="obrigatorio"> 
 		</div>
-		<p id="fonte_senhanova"> Esqueceu sua senha?</p><br>
-		<button class="button1">Entrar</a></button><br><br>
-		<button class="button2">Cadastre-se</a></button>
 
-			<!--<input type="submit" name="enviar" id="enviar" value="Enviar"><br> -->
-
-
-      	
+    	<a class="links" href="esqueceu_senha.html"><p id="fonte_senhanova"> Esqueceu sua senha?</p><br></a>
+		<button class="button1">Entrar</a></button><br><br></a>
+		  
 	</form>
 
 </section>
-
-
-</div> <br>
+	
+	<a class="links" href="home.html"><div id="cadastro"><button class="button2">Cadastre-se</a></button></div><br></a>
 
 
 <script type="text/javascript">

@@ -8,6 +8,7 @@ body
 
 }
 
+
 section
 {
 	display: flex;
@@ -17,6 +18,7 @@ section
 	background-color: #ffffff;
 	width: 25%;
 	border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
 }
 
 form div
@@ -51,15 +53,49 @@ form div
     padding: 10px 12px;
 	width: 35%;
 	margin-left: 170px;
+	transition-duration: 0.4s;
 }
+
+.button1:hover
+{
+	background-color: #3B93AA;
+	color: white;
+}
+
+
+
+#cadastro
+{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+.links
+{
+	text-decoration: none;
+	color: black;
+}
+
+
 .button2 {
     background-color: #c5c5c5;
     font-size: 13px;
     border: none;
     border-radius: 15px;
     padding: 10px 12px;
-	width: 35%;
-	margin-left: 170px;
+	width: 115px;
+	margin-top: -12%;
+	margin-left: 1303px;
+	transition-duration: 0.4s;
+	
+	
+}
+.button2:hover
+{
+	background-color: #3B93AA;
+	color: white;
 }
 
 
