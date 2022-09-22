@@ -13,7 +13,7 @@ section
 {
 	display: flex;
 	margin-top: 150px;
-	margin-left: 1135px;
+	margin-left: 1134px;
 	height: 60vh;
 	background-color: #ffffff;
 	width: 25%;
@@ -34,7 +34,7 @@ form div
 {
 	font-family: Hertical Serif, cursive, Helvetica;
 	font-size: 22px;
-	margin-left: 199px;
+	margin-left: 198px;
 }
 #fonte_senhanova
 {
@@ -98,6 +98,20 @@ form div
 	color: white;
 }
 
+#imagem_conta
+{
+	float: left;
+	width: 35px;
+	margin-left: 99px;
+	margin-top: 5px;
+}
+#imagem_senha
+{
+	float: left;
+	width: 50px;
+	margin-left: 93px;
+	margin-top: 25px;
+}
 
 input[type=text] 
 {
