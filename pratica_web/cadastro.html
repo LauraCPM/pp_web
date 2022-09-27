@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cadastro</title>
+	<meta charset="utf-8">
+	<link href="imagens/logo.ico" rel="icon"> 
+	 <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+<body >
+	
+
+<section>
+
+	<form action = "./php/cadastro.php" method="post" onsubmit="return validacao()">
+
+		<br><br><br><br><br><br><span id="fonte_cadastro">Cadastro</span><br><br><br>
+
+
+		<div>
+        	 <label for="nome"></label><input placeholder="  Nome"  id="posicao_nome" maxlength=10 type="text" name="nome"   class="obrigatorio">
+		</div>
+        <div>
+            <label for="sobrenome"></label><input placeholder="  Sobrenome"  id="posicao_sobrenome" maxlength=10 type="text" name="sobrenome"  class="obrigatorio">
+       </div>
+       <br>
+       <div>
+           <br>
+        <label for="email"></label><input placeholder="  Email"  id="posicao_email" maxlength=10 type="email" name="name" id="name"  class="obrigatorio">
+       </div>
+       <div>
+        <label for="nome"></label><input placeholder="  Nome"  id="posicao_nome" maxlength=10 type="text" name="name" id="name"  class="obrigatorio">
+   
+    </div>
+
+   <div>
+       <br>
+       <label for="sobrenome"></label><input placeholder="  Sobrenome"  id="posicao_sobrenome" maxlength=10 type="text" name="name" id="name"  class="obrigatorio">
+  </div>
+
+
+		<!--<div>
+			<label for="senha"><br></label><input placeholder="  Senha"  maxlength="8" type="password" name="pass" id="pass" class="obrigatorio"> 
+		</div>-->
+
+		
+		<!--<button class="button1">Cadastre-se</button>-->
+		  
+	</form>
+
+</section><br><br>
+	
+
+
+<script type="text/javascript">
+
+	function validacao() 
+	{
+		var dados = document.getElementsByClassName('obrigatorio')
+		var tamanho = dados.length
+		var vazio = false;
+		
+		for(var i = 0; i < tamanho; i++)
+		{
+			if((dados [i].value=='')) 
+			{
+				vazio= true
+				break
+			}
+		}
+		if(vazio)
+		{
+			alert('Por favor, preencha todos os campos.')
+			return false
+		}
+		else
+		{
+			
+			return true
+		}
+	}
+
+</script>
+
+</body>
+
+</html>
