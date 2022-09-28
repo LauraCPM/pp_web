@@ -33,8 +33,10 @@ form div
 #logo_cadastro
 {
 	border-radius: 50%;
-	width: 100px;
-	margin-top: -60%;
+	width: 130px;
+	margin-top: -7%;
+	margin-left: 384px;
+	display: inline;
 }
 
 
