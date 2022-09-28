@@ -28,6 +28,17 @@ form div
 	
 }
 
+
+
+#logo_cadastro
+{
+	border-radius: 50%;
+	width: 100px;
+	margin-top: -60%;
+}
+
+
+
 #posicao_nome
 {
     display: inline-block;
@@ -44,12 +55,17 @@ form div
     margin-left: 230px;
 }
 
+#posicao_senha
+{
+    display: inline-block;
+    margin-left: 230px;
+}
 
 #fonte_cadastro
 {
 	font-family: Hertical Serif, cursive, Helvetica;
 	font-size: 22px;
-	margin-left: 395px;
+	margin-left: 398px;
 }
 
 
@@ -59,9 +75,10 @@ form div
     border: none;
     border-radius: 15px;
     padding: 10px 12px;
-	width: 35%;
-	margin-left: 170px;
+	width: 12%;
+	margin-left: 390px;
 	transition-duration: 0.4s;
+	margin-top: 30px;
 }
 
 .button1:hover
@@ -71,9 +88,6 @@ form div
 }
 
 
-
-
-
 .links
 {
 	text-decoration: none;
@@ -81,24 +95,6 @@ form div
 }
 
 
-.button2 {
-    background-color: #c5c5c5;
-    font-size: 13px;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 12px;
-	width: 115px;
-	margin-top: -12%;
-	margin-left: 1303px;
-	transition-duration: 0.4s;
-	
-	
-}
-.button2:hover
-{
-	background-color: #3B93AA;
-	color: white;
-}
 
 
 input[type=text] 
@@ -117,8 +113,8 @@ input[type=email]
 }
 input[type=password] 
 {
-	border: 2px solid rgb(102, 100, 100);
+	border: 2px solid rgb(112, 112, 112);
 	border-radius: 20px;
-	width: 190px;
+	width: 200px;
 	height: 40px;
 }

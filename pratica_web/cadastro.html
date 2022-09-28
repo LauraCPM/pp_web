@@ -13,9 +13,11 @@
 
 	<form action = "./php/cadastro.php" method="post" onsubmit="return validacao()">
 
-		<br><br><br><br><br><br><span id="fonte_cadastro">Cadastro</span><br><br><br>
+		<img id="logo_cadastro" src="./imagens/logo_cadastro.png">
 
+		<br><br><br><br><br><br><span id="fonte_cadastro">Cadastro</span><br><br>
 
+		
 		<div>
         	 <label for="nome"></label><input placeholder="  Nome"  id="posicao_nome" maxlength=10 type="text" name="nome"   class="obrigatorio">
 		</div>
@@ -25,25 +27,18 @@
        <br>
        <div>
            <br>
-        <label for="email"></label><input placeholder="  Email"  id="posicao_email" maxlength=10 type="email" name="name" id="name"  class="obrigatorio">
+        <label for="email"></label><input placeholder="  Email"  id="posicao_email" maxlength=10 type="email" name="email"   class="obrigatorio">
        </div>
        <div>
-        <label for="nome"></label><input placeholder="  Nome"  id="posicao_nome" maxlength=10 type="text" name="name" id="name"  class="obrigatorio">
+        <label for="senha"></label><input placeholder="  Senha"  id="posicao_senha" maxlength=8 type="password" name="senha"   class="obrigatorio">
    
     </div>
 
    <div>
        <br>
-       <label for="sobrenome"></label><input placeholder="  Sobrenome"  id="posicao_sobrenome" maxlength=10 type="text" name="name" id="name"  class="obrigatorio">
+       <label for="confirmar"></label><input placeholder="  Confirmar senha"  id="posicao_sobrenome" maxlength=8 type="text" name="confirmar"   class="obrigatorio">
   </div>
-
-
-		<!--<div>
-			<label for="senha"><br></label><input placeholder="  Senha"  maxlength="8" type="password" name="pass" id="pass" class="obrigatorio"> 
-		</div>-->
-
-		
-		<!--<button class="button1">Cadastre-se</button>-->
+		<button class="button1">Cadastrar</button>
 		  
 	</form>
 
