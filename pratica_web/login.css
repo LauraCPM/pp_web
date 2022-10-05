@@ -54,6 +54,7 @@ form div
 	width: 35%;
 	margin-left: 170px;
 	transition-duration: 0.4s;
+	cursor: pointer;
 }
 
 .button1:hover
@@ -89,6 +90,7 @@ form div
 	margin-top: -12%;
 	margin-left: 1303px;
 	transition-duration: 0.4s;
+	cursor: pointer;
 	
 	
 }
