@@ -1,3 +1,27 @@
+
+
+<?php
+    if(iseet($_POST['submit']))
+        include_once('config.php')
+
+    $nome = $_POST['nome'];
+    $senha = $_POST['senha'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $genero = $_POST['genero'];
+    $data_nascimento = $_POST['data_nascimento'];
+    $estado = $_POST['estado'];
+    $cidade = $_POST['cidade'];
+    $endereco = $_POST['endereco'];
+
+    $result = mysqli_query($pdo, "INSERT INTO usuarios(nome, senha, email, telefone, genero, data_nascimento, estado, cidade, endereco)
+    VALUES ('$nome', '$senha', '$email', '$telefone', '$genero', '$data_nascimento', '$estado', '$cidade', '$edereco')")
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +29,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-
-
-
 
     <style>
         body
