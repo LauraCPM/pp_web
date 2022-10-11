@@ -121,7 +121,7 @@
                 <br>
                 <div class="inputBox">
                     <input type="password" name="senha" id="senha" class="inputUser" required>
-                    <label for="senha" class="labelInput">Telefone</label>
+                    <label for="senha" class="labelInput">Senha</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
@@ -134,13 +134,13 @@
                     <label for="telefone" class="labelInput">Telefone</label>
                 </div>
                 <p>Sexo</p>
-                <input type="radio" id="feminino" name="feminino" value="feminino" required>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
                 <br>
-                <input type="radio" id="masculino" name="masculino" value="masculino" required>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
                 <label for="masculino">Masculino</label>
                 <br>
-                <input type="radio" id="outro" name="outro" value="outro" required>
+                <input type="radio" id="genero" name="genero" value="outro" required>
                 <label for="outro">Outro</label>
                 <br><br>
                 <label for="data_nascimento"><b>Data de Nascimento</b></label>
