@@ -1,0 +1,135 @@
+body
+{
+ font-family: "Helvetica", "Lucida Grande", sans-serif;
+  background-repeat: no-repeat;
+  background-image: url(../img/fundo_login.png);
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+
+
+section
+{
+	display: flex;
+	margin-top: 150px;
+	margin-left: 1134px;
+	height: 60vh;
+	background-color: #ffffff;
+	width: 25%;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
+}
+
+form div
+{
+	
+	margin-left: 142px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+#fonte_login
+{
+	font-family: Hertical Serif, cursive, Helvetica;
+	font-size: 22px;
+	margin-left: 198px;
+}
+#fonte_senhanova
+{
+	font-family: Hertical Serif, cursive, Helvetica;
+	font-size: 12px;
+	display: flex;
+	margin-left: 199px;
+	
+}
+
+.button1 {
+    background-color: #c5c5c5;
+    font-size: 13px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 12px;
+	width: 35%;
+	margin-left: 170px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1:hover
+{
+	background-color: #3B93AA;
+	color: white;
+}
+
+
+
+#cadastro
+{
+	display: flex;
+	flex-direction: column;
+	
+}
+#entrar
+{
+	text-decoration: none;
+	color: black;
+}
+
+.links
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+.button2 {
+    background-color: #c5c5c5;
+    font-size: 13px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 12px;
+	width: 115px;
+	margin-top: -12%;
+	margin-left: 1303px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	
+	
+}
+.button2:hover
+{
+	background-color: #3B93AA;
+	color: white;
+}
+
+#imagem_conta
+{
+	float: left;
+	width: 35px;
+	margin-left: 99px;
+	margin-top: 5px;
+}
+#imagem_senha
+{
+	float: left;
+	width: 50px;
+	margin-left: 93px;
+	margin-top: 25px;
+}
+
+input[type=text] 
+{
+	border: 2px solid rgb(112, 112, 112);
+	border-radius: 20px;
+	width: 170px;
+	height: 40px;
+}
+input[type=password] 
+{
+	border: 2px solid rgb(102, 100, 100);
+	border-radius: 20px;
+	width: 170px;
+	height: 40px;
+}

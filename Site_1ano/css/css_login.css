@@ -1,8 +1,8 @@
 body
 {
- font-family: "Helvetica", "Lucida Grande", sans-serif;
+  font-family: "Helvetica", "Lucida Grande", sans-serif;
   background-repeat: no-repeat;
-  background-image: url(imagens/fundo_login.png);
+  background-image: url(../icones/fundo_login.png);
   background-size: 100%;
   background-attachment: fixed;
 
@@ -12,8 +12,9 @@ body
 section
 {
 	display: flex;
-	margin-top: 150px;
-	margin-left: 1134px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px;
 	height: 60vh;
 	background-color: #ffffff;
 	width: 25%;
@@ -54,7 +55,6 @@ form div
 	width: 35%;
 	margin-left: 170px;
 	transition-duration: 0.4s;
-	cursor: pointer;
 }
 
 .button1:hover
@@ -90,7 +90,6 @@ form div
 	margin-top: -12%;
 	margin-left: 1303px;
 	transition-duration: 0.4s;
-	cursor: pointer;
 	
 	
 }

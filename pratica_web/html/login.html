@@ -3,25 +3,25 @@
 <head>
 	<title>Login</title>
 	<meta charset="utf-8">
-	<link href="imagens/logo.ico" rel="icon"> 
-	 <link rel="stylesheet" href="login.css">
+	<link href="../img/logo.ico" rel="icon"> 
+	 <link rel="stylesheet" href="../css/login.css">
 </head>
 <body >
 	
 
 <section>
 
-	<form action = "./php/cadastro.php" method="post" onsubmit="return validacao()">
+	<form method="post">
 
 		<br><br><br><br><br><br><span id="fonte_login">Login</span><br><br><br>
 
-		<img id="imagem_conta" src="./imagens/conta.png">
+		<img id="imagem_conta" src="../img/conta.png">
 
 		<div>
         	 <label for="usuario"></label><input placeholder="  Usuário" maxlength=10 type="text" name="name" class="obrigatorio">
 		</div>
 
-		<img id="imagem_senha" src="./imagens/senha.png">
+		<img id="imagem_senha" src="../img/senha.png">
 
 		<div>
 			<label for="senha"><br></label><input placeholder="  Senha"  maxlength="8" type="password" name="pass" class="obrigatorio"> 
@@ -29,44 +29,18 @@
 
     	<a class="links" href="esqueceu_senha.html"><p id="fonte_senhanova"> Esqueceu sua senha?</p><br></a>
 		
-		<button class="button1">Entrar</button>
+		<a  id="entrar" href="paginaHome.html"><button class="button1">Entrar</a></button>
 		  
 	</form>
+
+	
 
 </section><br><br>
 	
 	<a class="links" href="cadastro.html"><div id="cadastro"><button class="button2">Cadastre-se</a></button></div><br></a>
 
 
-<script type="text/javascript">
 
-	function validacao() 
-	{
-		var dados = document.getElementsByClassName('obrigatorio')
-		var tamanho = dados.length
-		var vazio = false;
-		
-		for(var i = 0; i < tamanho; i++)
-		{
-			if((dados [i].value=='')) 
-			{
-				vazio= true
-				break
-			}
-		}
-		if(vazio)
-		{
-			alert('Por favor, preencha todos os campos.')
-			return false
-		}
-		else
-		{
-			
-			return true
-		}
-	}
-
-</script>
 
 </body>
 
