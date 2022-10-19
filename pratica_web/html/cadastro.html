@@ -11,7 +11,7 @@
 
 <section>
 
-	<form action = "./php/cadastro.php" method="post" onsubmit="return validacao()">
+	<form >
 
 		<img id="logo_cadastro" src="../img/logo_cadastro.png">
 
@@ -19,18 +19,18 @@
 
 		
 		<div>
-        	 <label for="nome"></label><input placeholder="  Nome"  id="posicao_nome" maxlength=10 type="text" name="nome"   class="obrigatorio">
+        	 <label for="nome"></label><input placeholder="  Nome"  id="posicao_nome" maxlength=100 type="text" name="nome"   class="obrigatorio">
 		</div>
         <div>
-            <label for="sobrenome"></label><input placeholder="  Sobrenome"  id="posicao_sobrenome" maxlength=10 type="text" name="sobrenome"  class="obrigatorio">
+            <label for="sobrenome"></label><input placeholder="  Sobrenome"  id="posicao_sobrenome" maxlength=100 type="text" name="sobrenome"  class="obrigatorio">
        </div>
        <br>
        <div>
            <br>
-        <label for="email"></label><input placeholder="  Email"  id="posicao_email" maxlength=10 type="email" name="email"   class="obrigatorio">
+        <label for="email"></label><input placeholder="  Email"  id="posicao_email" maxlength=100 type="email" name="email"   class="obrigatorio">
        </div>
        <div>
-        <label for="senha"></label><input placeholder="  Senha"  id="posicao_senha" maxlength=8 type="password" name="senha"   class="obrigatorio">
+        <label for="senha"></label><input placeholder="  Senha"  id="posicao_senha" maxlength=32 type="password" name="senha"   class="obrigatorio">
    
     </div>
 
@@ -38,7 +38,7 @@
        <br>
        <label for="confirmar"></label><input placeholder="  Confirmar senha"  id="posicao_sobrenome" maxlength=8 type="password" name="confirmar"   class="obrigatorio">
   </div>
-		<button class="button1">Cadastrar</button>
+		<a class="links" href="login.html"><button class="button1">Cadastrar</a></button>
 		  
 	</form>
 
@@ -46,35 +46,6 @@
 	
 
 
-<script type="text/javascript">
-
-	function validacao() 
-	{
-		var dados = document.getElementsByClassName('obrigatorio')
-		var tamanho = dados.length
-		var vazio = false;
-		
-		for(var i = 0; i < tamanho; i++)
-		{
-			if((dados [i].value=='')) 
-			{
-				vazio= true
-				break
-			}
-		}
-		if(vazio)
-		{
-			alert('Por favor, preencha todos os campos.')
-			return false
-		}
-		else
-		{
-			
-			return true
-		}
-	}
-
-</script>
 
 </body>
 

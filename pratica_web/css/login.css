@@ -19,6 +19,7 @@ section
 	width: 25%;
 	border-radius: 30px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
+
 }
 
 form div
@@ -28,6 +29,7 @@ form div
 	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	flex-direction: column;
+	
 }
 
 #fonte_login
@@ -62,6 +64,8 @@ form div
 	background-color: #3B93AA;
 	color: white;
 }
+
+
 
 
 
