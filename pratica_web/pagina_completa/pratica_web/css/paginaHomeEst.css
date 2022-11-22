@@ -17,6 +17,10 @@
 }
 
 
+#titulo
+{
+    margin-left: 160px;
+}
 .navBar {
     width: 100%;
     height: 3em;
@@ -47,7 +51,7 @@
 }
 
 .logo img{
-    margin-left: 45px;
+    margin-left: 160px;
 }
 
 .logo img{
@@ -58,7 +62,7 @@
 .icones{
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-left: 680px;
 
 }
 

@@ -1,0 +1,185 @@
+ body
+{
+ font-family: "Helvetica", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+
+}
+input[type=text] 
+{
+	border: 2px solid rgb(112, 112, 112);
+	background-color: #e9e7e7;
+	border-radius: 15px;
+	width: 400px;
+	height: 40px;
+	margin-left: 1px; /*lateral*/
+}
+input[type=pesquisa] 
+{
+	border: 2px solid rgb(112, 112, 112);
+	background-color: #ecebeb;
+	border-radius: 10px;
+	width: 400px;
+	height: 30px;
+	margin-left: 1px; /*lateral*/
+}
+.corpo1
+{
+	display: inline;
+	width:600px;
+	margin-left: 480px; /*lateral*/
+	margin-right: 100px;
+	
+}
+.button1 {
+	background-color: #3B93AA;
+	font-size: 18px;
+	border: none;
+	border-radius: 15px;
+	padding: 12px 16px;
+}
+
+/*.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}*/
+
+#pesquisa
+{
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: #3B93AA;
+	right: 0px;
+	position: fixed;
+}
+#pesquisa1
+{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: #643b66;
+	right: 0px;
+	position: fixed;
+}
+
+.barra
+{
+	display: flex;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+#bf
+{
+	display: inline-block;
+	float: left;
+	margin-left: -85px;
+	margin-top: -95px;
+}
+
+#cab
+{
+	
+	display: block;
+	background-color: black;
+	height: 70%;
+	text-align: center;
+  	border: solid;
+}
+#menu
+{
+	display: block;
+	background:  #3B93AA;
+	text-align: center;
+	color: black;
+	font-size: 13px;
+	height: 55px;
+}
+#links
+{ 
+	display: inline-block;
+	word-spacing: 80px;
+	font-weight: bold;
+	color: white;
+}
+.efeito
+{
+	text-decoration: none;
+	text-decoration: underline;
+	text-decoration: none;
+	color: white;
+}
+
+.corpo
+{
+	display: flex;
+	width:600px;
+	margin-left: 500px; /*lateral*/
+	margin-right: 100px;
+	text-indent: 0,5em;
+	line-height: 6,5mm;
+	font-size: 14px;
+	
+}
+.corpo2
+{
+	display: inline-flex;
+	width:800px;
+	margin-left: 500px; /*lateral*/
+	margin-right: 500px;
+	text-indent: 0,5em;
+	line-height: 6,5mm;
+	font-size: 14px;
+	
+}
+.foto
+{
+	float: left;
+    border-radius:20px;
+}
+.texto
+{
+	/*text-align: justify;*/
+	align-items: center;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.texto1
+{
+	text-align: justify;
+	align-items: center;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+.botao
+{
+	float: right;
+	margin-top: 8em;
+	margin-right: 1em;
+	
+}
+#rodape
+{
+	background-color:#d9d9d9;
+	height: 200px;
+}
+.rod
+{
+	display: inline-block;
+	margin-left: 4em;
+	margin-top: 4em;
+	font-family: "Helvetica", "Lucida Grande", sans-serif;
+	font-size: 14px;
+}
+
+.lista
+{
+	list-style-type: circle;
+}
+.font
+{
+	font-family: Brush Script Std, cursive, Helvetica;
+}
