@@ -6,6 +6,11 @@
 
 /*MENU*/
 
+#titulo
+{
+    margin-left: 165px;
+}
+
 .header{
     background-color: #F1A939;
     width: 100%;
