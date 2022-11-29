@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 18px;
+	background-image: url("../img/fundo.png");;
+	background-size:90%;
+	background-attachment:fixed;
+}
+
+ul{
+	list-style: none;
+}
+#menufundo{
+	width: 200px;
+}
+img{
+	width: 30px;
+}
+input[type="checkbox"]
+{
+	display: none;
+}
+nav{
+	background-color: #4bb0c9;
+	width: 350px;
+	height: 100%;
+	left: -350px;
+	position: absolute;
+}
+input[type="checkbox"]:checked~nav
+{
+ transform: translateX(350px);
+}
+
+ul{
+   background-color: #4bb0c9;
+   top: 50px;
+   position: absolute;
+   width: 100%
+}
+
+a{
+	display: block;
+	padding: 20px 5px;
+	color: black       ;
+}
+
+a:hover{
+	background-color: #F1A939;
+	color: white;
+}
+
+label{
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+
+
+}
