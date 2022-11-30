@@ -32,7 +32,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: #eee;
+  background-image: url("../img/fundo.png");;
+	background-size:90%;
+	background-attachment:fixed;
 }
 
 section {
@@ -88,7 +90,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #0984e3;
+  background: #4bb0c9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,7 +100,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem 9%;
+  padding: 2rem 9%;
 }
 
 .header .logo {
