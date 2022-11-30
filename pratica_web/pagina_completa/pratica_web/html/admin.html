@@ -1,40 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="../css/admin.css">
-	<link rel="shortcut icon" href="../icones/logo.ico">
-	<title>Pink Floyd - Desciclopédia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="../css/admin.css">
+
 </head>
 <body>
-	<input type="checkbox" id="chec">
-	<label for= "chec">
-		<img src="../img/menu.png" alt=”Icone_menu”>
-	</label>
-  <nav>
-
-  	 <ul>
-
-        <br/>
-  	 	<li><a href="página2.html"> Pedidos</b></a></li>
-  	 	<li><a href="página3.html"> Usuários</b></a></li>
-  	 	<li><a href="página4.html"> Estoque</b></a></li>
-  	 	<li><a href="página5.html"> Produtos mais vendidos</b></a></li>
-		   <li><a href="página5.html"> Categorias</b></a></li>
-      <br>
-      <br>
-      <br>
-      <br>
-
- 
+    
 
 
-      <center><img id="menufundo" src="../icones/logoo.png"></center>
+<header class="header">
 
-  	 	
-  	 </ul>
-  </nav>
+<!-- LOGO-->
 
+    <a href="../img/logo.ico" class="logo"> </a>
+
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- side-bar section starts -->
+
+<div class="side-bar">
+
+    <div id="close-side-bar" class="fas fa-times"></div>
+
+    <div class="user">
+        <img src="../img/admin.jpg" alt="">
+        <h3>Pedro Martins</h3>
+        <a href="">Sair</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html"> <i class="fas fa-angle-right"></i> Pedidos </a>
+        <a href="about.html"> <i class="fas fa-angle-right"></i> Usuários </a>
+        <a href="products.html"> <i class="fas fa-angle-right"></i> Estoque </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> Produtos Mais Vendidos </a>
+        <a href="login.html"> <i class="fas fa-angle-right"></i> Categoria </a>
+    </nav>
+
+</div>
+
+<!-- side-bar section ends -->
+
+<!-- home section starts  -->
+
+
+<!-- home section ends -->
+
+
+<!-- swiper js link      -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="../js/admin.js"></script>
 
 </body>
 </html>
