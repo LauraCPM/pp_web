@@ -12,7 +12,10 @@
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
-
+.logo_aope
+{
+  width: 120px;
+}
 html {
   overflow-x: hidden;
   font-size: 62.5%;
@@ -100,7 +103,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2rem 9%;
+  padding: 1rem 9%;
 }
 
 .header .logo {
